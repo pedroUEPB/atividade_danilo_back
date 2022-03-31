@@ -125,18 +125,6 @@
       },
       "users": [],
       "id": 3
-    },
-    {
-      "name": "testando123",
-      "description": "teste",
-      "teacher": {
-        "id": 1,
-        "username": "user1",
-        "role": "TEACHER",
-        "iat": 1648743536
-      },
-      "users": [],
-      "id": 4
     }
   ]
 }
