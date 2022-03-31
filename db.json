@@ -1,0 +1,142 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "user1",
+      "password": "user123",
+      "registration": 0,
+      "role": "TEACHER",
+      "occupation_area": "teste",
+      "formation": "teste"
+    },
+    {
+      "id": 2,
+      "username": "user2",
+      "password": "user123",
+      "registration": 0,
+      "role": "ALUMN",
+      "occupation_area": "",
+      "formation": ""
+    },
+    {
+      "id": 3,
+      "username": "user3",
+      "password": "user123",
+      "registration": 0,
+      "role": "ALUMN",
+      "occupation_area": "",
+      "formation": ""
+    },
+    {
+      "username": "testeuser",
+      "password": "user123",
+      "registration": "teste",
+      "role": "teste",
+      "occupation_area": "",
+      "formation": "",
+      "id": 4
+    },
+    {
+      "username": "user100",
+      "password": "user123",
+      "registration": "asdasd",
+      "role": "ALUMN",
+      "occupation_area": "",
+      "formation": "",
+      "id": 5
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": "PRIMEIRO PROJETO",
+      "description": "apenas um teste do primeiro projeto editado",
+      "teacher": {
+        "id": 1,
+        "username": "user1",
+        "password": "user123",
+        "function": "TRAINEE",
+        "registration": 0,
+        "role": "TEACHER",
+        "occupation_area": "teste",
+        "formation": "teste"
+      },
+      "users": [
+        {
+          "id": 2,
+          "username": "user2",
+          "password": "user123",
+          "function": "JUNIOR",
+          "registration": 0,
+          "role": "ALUMN",
+          "occupation_area": "",
+          "formation": ""
+        },
+        {
+          "id": 3,
+          "username": "user3",
+          "password": "user123",
+          "function": "TRAINEE",
+          "registration": 0,
+          "role": "ALUMN",
+          "occupation_area": "",
+          "formation": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "description": "string",
+      "name": "string",
+      "teacher": {
+        "id": 1,
+        "username": "user1",
+        "password": "user123",
+        "function": "TRAINEE",
+        "registration": 0,
+        "role": "TEACHER",
+        "occupation_area": "teste",
+        "formation": "teste"
+      },
+      "users": [
+        {
+          "id": 2,
+          "username": "user2",
+          "password": "user123",
+          "function": "JUNIOR",
+          "registration": 0,
+          "role": "ALUMN",
+          "occupation_area": "",
+          "formation": ""
+        }
+      ]
+    },
+    {
+      "name": "projeto teste",
+      "description": "apenas um projeto de teste",
+      "teacher": {
+        "id": 1,
+        "username": "user1",
+        "password": "user123",
+        "registration": 0,
+        "role": "TEACHER",
+        "occupation_area": "teste",
+        "formation": "teste"
+      },
+      "users": [],
+      "id": 3
+    },
+    {
+      "name": "testando123",
+      "description": "teste",
+      "teacher": {
+        "id": 1,
+        "username": "user1",
+        "role": "TEACHER",
+        "iat": 1648743536
+      },
+      "users": [],
+      "id": 4
+    }
+  ]
+}
